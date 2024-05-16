@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Links</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+        .all_web {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 50px;
+        }
+        .web {
+            width: 100px;
+            height: 120px;
+            background-color: rgb(235, 235, 235);
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.461);
+            text-align: center;
+        }
+        .web:hover {
+            background-color: rgb(234, 75, 189);
+        }
+        .icon_web {
+            height: 60px;
+            margin: 5px auto;
+        }
+        .title_web {
+            margin: 5px;
+            padding: 5px;
+        }
+        .img {
+            width: 80px;
+        }
+
+                /* Media Queries for Responsive Design */
+                @media (max-width: 600px) {
+            .web {
+                width: 70px;
+                height: 90px;
+                
+            }
+            .icon_web {
+                height: 40px;
+            }
+            .img {
+                width: 50px;
+            }
+            .title_web {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="all_web">
+        <a href="https://mail.google.com/">
+            <div class="web">
+                <div class="icon_web"><img class="img" src="https://img.icons8.com/fluency/240/gmail-new.png" alt="gmail-new"></div>
+                <div class="title_web">Gmail</div>
+            </div>
+        </a>
+        <a href="https://youtube.com/">
+            <div class="web">
+                <div class="icon_web"><img class="img" src="https://img.icons8.com/color/144/youtube-play.png" alt="youtube-play"></div>
+                <div class="title_web">YouTube</div>
+            </div>
+        </a>
+        <a href="https://translate.google.com/">
+            <div class="web">
+                <div class="icon_web"><img class="img" src="https://img.icons8.com/color/144/google-translate.png" alt="google-translate"></div>
+                <div class="title_web">Translate</div>
+            </div>
+        </a>
+        <a href="https://www.facebook.com/">
+            <div class="web">
+                <div class="icon_web"><img class="img" src="https://img.icons8.com/fluency/240/facebook-new.png" alt="facebook-new"></div>
+                <div class="title_web">Facebook</div>
+            </div>
+        </a>
+        <a href="https://www.tiktok.com/">
+            <div class="web">
+                <div class="icon_web"><img class="img" src="https://img.icons8.com/color/480/tiktok--v1.png" alt="tiktok"></div>
+                <div class="title_web">TikTok</div>
+            </div>
+        </a>
+        <a href="https://chatgpt.com/?oai-dm=1">
+            <div class="web">
+                <div class="icon_web"><img class="img" src="https://img.icons8.com/color/480/chatgpt.png" alt="chatgpt"></div>
+                <div class="title_web">ChatGPT</div>
+            </div>
+        </a>
+        <a href="https://gemini.google.com/chat?hl=en">
+            <div class="web">
+                <div class="icon_web"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/2560px-Google_Gemini_logo.svg.png" alt="gemini"></div>
+                <div class="title_web">Gemini</div>
+            </div>
+        </a>
+    
+</body>
+</html>
